@@ -60,6 +60,7 @@ reziseBtn = document.querySelector('#resize-Blackboard');
 
 function changeBlackboard() {
 	let number = prompt("¿Cuantos pixeles por lado necesita?", "");
+	newBlackboard();
 	pxTotal = 480 / parseInt(number);
 	container.style.gridTemplateColumns = "repeat(" + parseInt(number) + ", " + pxTotal + "px)";
 	container.style.gridTemplateRows = "repeat(" + parseInt(number) + ", " + pxTotal + "px)";
