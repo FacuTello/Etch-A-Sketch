@@ -37,7 +37,7 @@ body{
 @media (max-width: 400px) {
   .grid-container {
     width: 300px;
-    height: 800px;
+    height: 350px;
   } 
 }
 
